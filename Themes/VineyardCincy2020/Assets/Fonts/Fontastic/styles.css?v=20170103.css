@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "vineyard-cincy";
+  src:url("fonts/vineyard-cincy.eot");
+  src:url("fonts/vineyard-cincy.eot%3F") format("embedded-opentype"),
+    url("fonts/vineyard-cincy.woff") format("woff"),
+    url("fonts/vineyard-cincy.ttf") format("truetype"),
+    url("fonts/vineyard-cincy.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "vineyard-cincy" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="vc-icon-"]:before,
+[class*=" vc-icon-"]:before {
+  font-family: "vineyard-cincy" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vc-icon-menu:before {
+  content: "\e000";
+}
+.vc-icon-search:before {
+  content: "\e001";
+}
+.vc-icon-facebook:before {
+  content: "\e002";
+}
+.vc-icon-instagram:before {
+  content: "\e003";
+}
+.vc-icon-twitter:before {
+  content: "\e004";
+}
+.vc-icon-snapchat:before {
+  content: "\e005";
+}
+.vc-icon-youtube:before {
+  content: "\e006";
+}
+.vc-icon-grid:before {
+  content: "\e007";
+}
+.vc-icon-list:before {
+  content: "\e008";
+}
+.vc-icon-hc-logo:before {
+  content: "\e009";
+}
+.vc-icon-close:before {
+  content: "\e00a";
+}
+.vc-icon-menu-arrow-down:before {
+  content: "\e00b";
+}
+.vc-icon-business-leaders:before {
+  content: "\e00c";
+}
+.vc-icon-couples:before {
+  content: "\e00d";
+}
+.vc-icon-men:before {
+  content: "\e00e";
+}
+.vc-icon-singles:before {
+  content: "\e00f";
+}
+.vc-icon-women:before {
+  content: "\e010";
+}
+.vc-icon-plus:before {
+  content: "\e011";
+}
+.vc-icon-minus:before {
+  content: "\e012";
+}
+.vc-icon-sos-logo:before {
+  content: "\e013";
+}
+.vc-icon-logo:before {
+  content: "\e014";
+}
+.vc-icon-calendar:before {
+  content: "\e015";
+}
